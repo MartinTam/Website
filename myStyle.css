@@ -17,3 +17,18 @@
 #home-button:hover {
     background: #007bff;
 }
+
+.my-link {
+    text-decoration: none;
+    color: grey;
+    transition: color 0.5s ease;
+}
+
+.my-link:hover {
+    color: grey;
+}
+
+.my-list {
+    color: white;
+    list-style: none;
+}
