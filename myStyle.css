@@ -1,0 +1,19 @@
+#home-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    background: black;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+
+    transition: background 0.5s ease;
+}
+
+#home-button:hover {
+    background: blue;
+}
